@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>HS管理系统</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+     <!--Custom styles for this template -->
+    <link href="assets/css/admin.ui.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--Script-->
+    <script src="assets/js/jquery_3.2.1_jquery.slim.min.js"></script>
+    <script src="assets/js/popper.js_1.12.9_umd_popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+  <div class="class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+        <label for="logo">
+                <i class="fa fa-houzz fa-2x"></i>
+                <a class="navbar-brand">HS后台管理系统<small class="text-muted">v1.0.0</small></a>
+        </label>
+       
+        <form class="form-inline">
+            <label for="Search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="搜索" aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">搜索</button>
+            </label>
+        </form>
+
+    </nav>
+      <div class="row">
+            <div class="sidebar col-2 bg-light">
+                    <div class="accordion" id="accordionExample">
+                            <div class="card">
+                              <div class="card-header" id="heading1">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    控制台
+                                  </button>
+                                </h5>
+                              </div>
+                          
+                              <div id="collapse1" class="collapse show" aria-labelledby="heading1e" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  <li class="list-group-item">控制台</li>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="heading2">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-primary w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    管理员设置
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                                <div class="card-body">
+                                        <ul class="list-group">
+                                                <li class="list-group-item">管理员列表</li>
+                                                <li class="list-group-item">添加管理员</li>
+                                        </ul>
+                                
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="heading3">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-primary w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    客户信息管理
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                        <ul class="list-group">
+                                                <li class="list-group-item">客户信息列表</li>
+                                                <li class="list-group-item">添加客户信息</li>
+                                        </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-header" id="heading4">
+                                      <h5 class="mb-0">
+                                        <button class="btn btn-primary w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                          商品信息管理
+                                        </button>
+                                      </h5>
+                                    </div>
+                                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                            <ul class="list-group">
+                                                    <li class="list-group-item">商品信息列表</li>
+                                                    <li class="list-group-item">添加商品信息</li>
+                                            </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card">
+                                        <div class="card-header" id="heading5">
+                                          <h5 class="mb-0">
+                                            <button class="btn btn-primary w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                              客户信息管理
+                                            </button>
+                                          </h5>
+                                        </div>
+                                        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                                          <div class="card-body">
+                                            <ul class="list-group"></ul>
+                                              <li class="list-group-item">客户信息列表</li>
+                                              <li class="list-group-item">添加客户信息</li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                            <div class="card-header" id="heading6">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-primary w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                                  客户信息管理
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                                              <div class="card-body">
+                                                    <ul class="list-group"></ul>
+                                                    <li class="list-group-item">客户信息列表</li>
+                                                    <li class="list-group-item">添加客户信息</li>
+                                                    </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                          </div>
+            </div>
+            <div class="content col-10">
+                
+            </div>
+      </div>
+  </div>
+</body>
+</html>
